@@ -32,7 +32,7 @@ export function Dashboard() {
      * - call addRepository function sending inputText value;
      * - clean inputText value.
      */
-    addRepository("facebook/react");
+    addRepository(inputText);
     setInputText("");
     inputRef.current?.blur();
   }
